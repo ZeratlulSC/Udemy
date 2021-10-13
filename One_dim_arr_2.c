@@ -16,10 +16,10 @@ int main(void){
         scanf("%d", &arr[i]);
         printf("\n");
     }
-    /*printf("\nThe number that you gave is: ");
+    printf("\nThe number that you gave is: ");
     for (int i = 0; i < nmbr; i++){
         printf("%d", arr[i]);
-    }*/
+    }
 
     return 0;
 }
