@@ -26,10 +26,8 @@ int main(void){
     int safe = 0;
     for(int i = nmbr; i > 0 ; i--){
         safe = arr[i - 1];
-        //printf("%d\n", arr[i-1]);
         arr[i-1]= (arr[i-1] + nmbr_to_add*(i==nmbr) + perenos)%10;
         perenos = (safe + nmbr_to_add*(i==nmbr) + perenos)/10;
-        //printf("\n%d %d\n", perenos, arr[i-1]);
     }
     printf("The number that you gave is: \n");
     if (perenos && nmbr != 10) printf("1");
