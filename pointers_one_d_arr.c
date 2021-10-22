@@ -29,7 +29,7 @@ void get_max_min_sum(int *arr, int n, int *p_sum){
     
     // call get_max to get the maximum in the array arr, you will need to pass the base address arr and n to this function.
     *(p_sum) = get_max(arr, n) + get_min(arr, n);
-    
+    //ee
     // Call get_min in the similar way and get the minimum value in the array, here also you will need to pass 2 parameters, base address of the array and the number of elements in that array.
     
     
