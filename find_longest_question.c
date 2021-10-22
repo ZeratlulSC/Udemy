@@ -32,7 +32,6 @@ int main(){
     char word[20];  // You will need to find each word from my_str and keep in this array
     char longestWord[20]; // will keep the current longest word here
     int i = 0, j;
-
     while(my_str[i]!='\0'){
         j = 0;  // use this as index of word array
         while (1){
