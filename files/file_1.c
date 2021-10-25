@@ -20,4 +20,5 @@ int main (){
     fp = fopen("1.txt", "r");
     printf("%s", fgets(str, 30, fp));
     fclose(fp);
+    
 }
