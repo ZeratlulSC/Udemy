@@ -1,0 +1,52 @@
+To enable/disable FILTER:
+set CONFIG_HOOK_FILTER=y/n into default.config
+To enable/disable file logger:
+set CONFIG_HOOK_LOGGER=y/n into default.config
+
+To change logging level use:
+	sudo bash -c 'echo <level> > /sys/module/hooker/parameters/filter_verbosity'
+	sudo bash -c 'echo <level> > /sys/module/hooker/parameters/hooker_verbosity'
+
+where <level> is:
+	0: error
+	1: info
+	2: debug
+
+
+Filter setup
+sudo bash -c 'echo 28103 > /sys/kernel/debug/hooker_filter/pid'
+
+
+
+test:
+sudo -i
+cd /sys/kernel/debug/hooker_filter
+/sys/kernel/debug/hooker_filter$ echo 223 > pid
+/sys/kernel/debug/hooker_filter$ echo 222 > pid
+/sys/kernel/debug/hooker_filter$ cat ./pid 
+
+logger create file /proc/hook_logger that can be use to see module debug messages:
+
+builder@ubuntu:~/projects/sber/hook_module$ cat /proc/hook_logger 
+[ 8864.497794] logger inited
+[ 8864.504875] Planted kprobe at 00000000f639c64e
+[ 8864.505856] Planted return probe at copy_process: 00000000f639c64e
+[ 8866.463884] pre_handler: p->addr = 0x00000000f639c64e, ip = ffffffffa4897811, flags = 0x246
+[ 8866.463886] post_handler: p->addr = 0x00000000f639c64e, ip = ffffffffa4897815, flags = 0x246
+[ 8866.463958] ret_handler: ip = ffffffffa48707c0, flags = 0x246
+[ 8866.463959] ret_handler: returned ffff9fd3f615ae00 and took 78087 ns to execute
+[ 8870.360653] pre_handler: p->addr = 0x00000000f639c64e, ip = ffffffffa4897811, flags = 0x246
+[ 8870.360655] post_handler: p->addr = 0x00000000f639c64e, ip = ffffffffa4897815, flags = 0x246
+[ 8870.360735] ret_handler: ip = ffffffffa48707c0, flags = 0x246
+[ 8870.360736] ret_handler: returned ffff9fd3f615ae00 and took 87503 ns to execute
+
+and its consistently with dmesg output as should be
+
+builder@ubuntu:~/projects/sber/hook_module$ dmesg
+[ 8864.497319] hooker: unknown parameter 'filter_verbosity' ignored
+[ 8864.504874] hooker DBG kprobe_init(176): Planted kprobe at 00000000f639c64e
+[ 8864.505855] hooker DBG kprobe_init(188): Planted return probe at copy_process: 00000000f639c64e
+[ 8866.463884] hooker DBG handler_pre(61): pre_handler: p->addr = 0x00000000f639c64e, ip = ffffffffa4897811, flags = 0x246
+[ 8866.463886] hooker DBG handler_post(80): post_handler: p->addr = 0x00000000f639c64e, ip = ffffffffa4897815, flags = 0x246
+[ 8866.463958] hooker DBG ret_handler(133): ret_handler: ip = ffffffffa48707c0, flags = 0x246
+[ 8866.463959] hooker DBG ret_handler(142): ret_handler: returned ffff9fd3f615ae00 and took 78087 ns to execute

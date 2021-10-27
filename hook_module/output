@@ -1,0 +1,807 @@
+GNU Make 4.1
+Built for x86_64-pc-linux-gnu
+Copyright (C) 1988-2014 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Reading makefiles...
+Reading makefile 'Makefile'...
+Updating makefiles....
+ Considering target file 'Makefile'.
+  Looking for an implicit rule for 'Makefile'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.o'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.c'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.cc'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.C'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.cpp'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.p'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.f'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.F'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.m'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.r'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.s'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.S'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.mod'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.sh'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile,v'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'RCS/Makefile,v'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'RCS/Makefile'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 's.Makefile'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'SCCS/s.Makefile'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.o'.
+  Looking for a rule with intermediate file 'Makefile.o'.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.c'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.cc'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.C'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.cpp'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.p'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.f'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.F'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.m'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.r'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.s'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.S'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.mod'.
+   Trying pattern rule with stem 'Makefile.o'.
+   Trying implicit prerequisite 'Makefile.o,v'.
+   Trying pattern rule with stem 'Makefile.o'.
+   Trying implicit prerequisite 'RCS/Makefile.o,v'.
+   Trying pattern rule with stem 'Makefile.o'.
+   Trying implicit prerequisite 'RCS/Makefile.o'.
+   Trying pattern rule with stem 'Makefile.o'.
+   Trying implicit prerequisite 's.Makefile.o'.
+   Trying pattern rule with stem 'Makefile.o'.
+   Trying implicit prerequisite 'SCCS/s.Makefile.o'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.c'.
+   Looking for a rule with intermediate file 'Makefile.c'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.y'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.l'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.w'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.w'.
+    Trying pattern rule with stem 'Makefile.c'.
+    Trying implicit prerequisite 'Makefile.c,v'.
+    Trying pattern rule with stem 'Makefile.c'.
+    Trying implicit prerequisite 'RCS/Makefile.c,v'.
+    Trying pattern rule with stem 'Makefile.c'.
+    Trying implicit prerequisite 'RCS/Makefile.c'.
+    Trying pattern rule with stem 'Makefile.c'.
+    Trying implicit prerequisite 's.Makefile.c'.
+    Trying pattern rule with stem 'Makefile.c'.
+    Trying implicit prerequisite 'SCCS/s.Makefile.c'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.y'.
+    Looking for a rule with intermediate file 'Makefile.y'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.y'.
+     Trying implicit prerequisite 'Makefile.y,v'.
+     Trying pattern rule with stem 'Makefile.y'.
+     Trying implicit prerequisite 'RCS/Makefile.y,v'.
+     Trying pattern rule with stem 'Makefile.y'.
+     Trying implicit prerequisite 'RCS/Makefile.y'.
+     Trying pattern rule with stem 'Makefile.y'.
+     Trying implicit prerequisite 's.Makefile.y'.
+     Trying pattern rule with stem 'Makefile.y'.
+     Trying implicit prerequisite 'SCCS/s.Makefile.y'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.l'.
+    Looking for a rule with intermediate file 'Makefile.l'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.l'.
+     Trying implicit prerequisite 'Makefile.l,v'.
+     Trying pattern rule with stem 'Makefile.l'.
+     Trying implicit prerequisite 'RCS/Makefile.l,v'.
+     Trying pattern rule with stem 'Makefile.l'.
+     Trying implicit prerequisite 'RCS/Makefile.l'.
+     Trying pattern rule with stem 'Makefile.l'.
+     Trying implicit prerequisite 's.Makefile.l'.
+     Trying pattern rule with stem 'Makefile.l'.
+     Trying implicit prerequisite 'SCCS/s.Makefile.l'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.w'.
+    Looking for a rule with intermediate file 'Makefile.w'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.w'.
+     Trying implicit prerequisite 'Makefile.w,v'.
+     Trying pattern rule with stem 'Makefile.w'.
+     Trying implicit prerequisite 'RCS/Makefile.w,v'.
+     Trying pattern rule with stem 'Makefile.w'.
+     Trying implicit prerequisite 'RCS/Makefile.w'.
+     Trying pattern rule with stem 'Makefile.w'.
+     Trying implicit prerequisite 's.Makefile.w'.
+     Trying pattern rule with stem 'Makefile.w'.
+     Trying implicit prerequisite 'SCCS/s.Makefile.w'.
+    Trying pattern rule with stem 'Makefile'.
+    Rejecting impossible implicit prerequisite 'Makefile.w'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.cc'.
+   Looking for a rule with intermediate file 'Makefile.cc'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile.cc'.
+    Trying implicit prerequisite 'Makefile.cc,v'.
+    Trying pattern rule with stem 'Makefile.cc'.
+    Trying implicit prerequisite 'RCS/Makefile.cc,v'.
+    Trying pattern rule with stem 'Makefile.cc'.
+    Trying implicit prerequisite 'RCS/Makefile.cc'.
+    Trying pattern rule with stem 'Makefile.cc'.
+    Trying implicit prerequisite 's.Makefile.cc'.
+    Trying pattern rule with stem 'Makefile.cc'.
+    Trying implicit prerequisite 'SCCS/s.Makefile.cc'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.C'.
+   Looking for a rule with intermediate file 'Makefile.C'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile.C'.
+    Trying implicit prerequisite 'Makefile.C,v'.
+    Trying pattern rule with stem 'Makefile.C'.
+    Trying implicit prerequisite 'RCS/Makefile.C,v'.
+    Trying pattern rule with stem 'Makefile.C'.
+    Trying implicit prerequisite 'RCS/Makefile.C'.
+    Trying pattern rule with stem 'Makefile.C'.
+    Trying implicit prerequisite 's.Makefile.C'.
+    Trying pattern rule with stem 'Makefile.C'.
+    Trying implicit prerequisite 'SCCS/s.Makefile.C'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.cpp'.
+   Looking for a rule with intermediate file 'Makefile.cpp'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile.cpp'.
+    Trying implicit prerequisite 'Makefile.cpp,v'.
+    Trying pattern rule with stem 'Makefile.cpp'.
+    Trying implicit prerequisite 'RCS/Makefile.cpp,v'.
+    Trying pattern rule with stem 'Makefile.cpp'.
+    Trying implicit prerequisite 'RCS/Makefile.cpp'.
+    Trying pattern rule with stem 'Makefile.cpp'.
+    Trying implicit prerequisite 's.Makefile.cpp'.
+    Trying pattern rule with stem 'Makefile.cpp'.
+    Trying implicit prerequisite 'SCCS/s.Makefile.cpp'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.p'.
+   Looking for a rule with intermediate file 'Makefile.p'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.web'.
+    Trying pattern rule with stem 'Makefile.p'.
+    Trying implicit prerequisite 'Makefile.p,v'.
+    Trying pattern rule with stem 'Makefile.p'.
+    Trying implicit prerequisite 'RCS/Makefile.p,v'.
+    Trying pattern rule with stem 'Makefile.p'.
+    Trying implicit prerequisite 'RCS/Makefile.p'.
+    Trying pattern rule with stem 'Makefile.p'.
+    Trying implicit prerequisite 's.Makefile.p'.
+    Trying pattern rule with stem 'Makefile.p'.
+    Trying implicit prerequisite 'SCCS/s.Makefile.p'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.web'.
+    Looking for a rule with intermediate file 'Makefile.web'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.web'.
+     Trying implicit prerequisite 'Makefile.web,v'.
+     Trying pattern rule with stem 'Makefile.web'.
+     Trying implicit prerequisite 'RCS/Makefile.web,v'.
+     Trying pattern rule with stem 'Makefile.web'.
+     Trying implicit prerequisite 'RCS/Makefile.web'.
+     Trying pattern rule with stem 'Makefile.web'.
+     Trying implicit prerequisite 's.Makefile.web'.
+     Trying pattern rule with stem 'Makefile.web'.
+     Trying implicit prerequisite 'SCCS/s.Makefile.web'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.f'.
+   Looking for a rule with intermediate file 'Makefile.f'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.F'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.r'.
+    Trying pattern rule with stem 'Makefile.f'.
+    Trying implicit prerequisite 'Makefile.f,v'.
+    Trying pattern rule with stem 'Makefile.f'.
+    Trying implicit prerequisite 'RCS/Makefile.f,v'.
+    Trying pattern rule with stem 'Makefile.f'.
+    Trying implicit prerequisite 'RCS/Makefile.f'.
+    Trying pattern rule with stem 'Makefile.f'.
+    Trying implicit prerequisite 's.Makefile.f'.
+    Trying pattern rule with stem 'Makefile.f'.
+    Trying implicit prerequisite 'SCCS/s.Makefile.f'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.F'.
+    Looking for a rule with intermediate file 'Makefile.F'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.F'.
+     Trying implicit prerequisite 'Makefile.F,v'.
+     Trying pattern rule with stem 'Makefile.F'.
+     Trying implicit prerequisite 'RCS/Makefile.F,v'.
+     Trying pattern rule with stem 'Makefile.F'.
+     Trying implicit prerequisite 'RCS/Makefile.F'.
+     Trying pattern rule with stem 'Makefile.F'.
+     Trying implicit prerequisite 's.Makefile.F'.
+     Trying pattern rule with stem 'Makefile.F'.
+     Trying implicit prerequisite 'SCCS/s.Makefile.F'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.r'.
+    Looking for a rule with intermediate file 'Makefile.r'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile'.
+     Rejecting impossible implicit prerequisite 'Makefile.l'.
+     Trying pattern rule with stem 'Makefile.r'.
+     Trying implicit prerequisite 'Makefile.r,v'.
+     Trying pattern rule with stem 'Makefile.r'.
+     Trying implicit prerequisite 'RCS/Makefile.r,v'.
+     Trying pattern rule with stem 'Makefile.r'.
+     Trying implicit prerequisite 'RCS/Makefile.r'.
+     Trying pattern rule with stem 'Makefile.r'.
+     Trying implicit prerequisite 's.Makefile.r'.
+     Trying pattern rule with stem 'Makefile.r'.
+     Trying implicit prerequisite 'SCCS/s.Makefile.r'.
+   Trying pattern rule with stem 'Makefile'.
+   Rejecting impossible implicit prerequisite 'Makefile.F'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.m'.
+   Looking for a rule with intermediate file 'Makefile.m'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.ym'.
+    Trying pattern rule with stem 'Makefile.m'.
+    Trying implicit prerequisite 'Makefile.m,v'.
+    Trying pattern rule with stem 'Makefile.m'.
+    Trying implicit prerequisite 'RCS/Makefile.m,v'.
+    Trying pattern rule with stem 'Makefile.m'.
+    Trying implicit prerequisite 'RCS/Makefile.m'.
+    Trying pattern rule with stem 'Makefile.m'.
+    Trying implicit prerequisite 's.Makefile.m'.
+    Trying pattern rule with stem 'Makefile.m'.
+    Trying implicit prerequisite 'SCCS/s.Makefile.m'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.ym'.
+    Looking for a rule with intermediate file 'Makefile.ym'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.ym'.
+     Trying implicit prerequisite 'Makefile.ym,v'.
+     Trying pattern rule with stem 'Makefile.ym'.
+     Trying implicit prerequisite 'RCS/Makefile.ym,v'.
+     Trying pattern rule with stem 'Makefile.ym'.
+     Trying implicit prerequisite 'RCS/Makefile.ym'.
+     Trying pattern rule with stem 'Makefile.ym'.
+     Trying implicit prerequisite 's.Makefile.ym'.
+     Trying pattern rule with stem 'Makefile.ym'.
+     Trying implicit prerequisite 'SCCS/s.Makefile.ym'.
+   Trying pattern rule with stem 'Makefile'.
+   Rejecting impossible implicit prerequisite 'Makefile.r'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.s'.
+   Looking for a rule with intermediate file 'Makefile.s'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.S'.
+    Trying pattern rule with stem 'Makefile.s'.
+    Trying implicit prerequisite 'Makefile.s,v'.
+    Trying pattern rule with stem 'Makefile.s'.
+    Trying implicit prerequisite 'RCS/Makefile.s,v'.
+    Trying pattern rule with stem 'Makefile.s'.
+    Trying implicit prerequisite 'RCS/Makefile.s'.
+    Trying pattern rule with stem 'Makefile.s'.
+    Trying implicit prerequisite 's.Makefile.s'.
+    Trying pattern rule with stem 'Makefile.s'.
+    Trying implicit prerequisite 'SCCS/s.Makefile.s'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.S'.
+    Looking for a rule with intermediate file 'Makefile.S'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.S'.
+     Trying implicit prerequisite 'Makefile.S,v'.
+     Trying pattern rule with stem 'Makefile.S'.
+     Trying implicit prerequisite 'RCS/Makefile.S,v'.
+     Trying pattern rule with stem 'Makefile.S'.
+     Trying implicit prerequisite 'RCS/Makefile.S'.
+     Trying pattern rule with stem 'Makefile.S'.
+     Trying implicit prerequisite 's.Makefile.S'.
+     Trying pattern rule with stem 'Makefile.S'.
+     Trying implicit prerequisite 'SCCS/s.Makefile.S'.
+   Trying pattern rule with stem 'Makefile'.
+   Rejecting impossible implicit prerequisite 'Makefile.S'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.mod'.
+   Looking for a rule with intermediate file 'Makefile.mod'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile.mod'.
+    Trying implicit prerequisite 'Makefile.mod,v'.
+    Trying pattern rule with stem 'Makefile.mod'.
+    Trying implicit prerequisite 'RCS/Makefile.mod,v'.
+    Trying pattern rule with stem 'Makefile.mod'.
+    Trying implicit prerequisite 'RCS/Makefile.mod'.
+    Trying pattern rule with stem 'Makefile.mod'.
+    Trying implicit prerequisite 's.Makefile.mod'.
+    Trying pattern rule with stem 'Makefile.mod'.
+    Trying implicit prerequisite 'SCCS/s.Makefile.mod'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'Makefile.c'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'Makefile.cc'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'Makefile.C'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'Makefile.cpp'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'Makefile.p'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'Makefile.f'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'Makefile.F'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'Makefile.m'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'Makefile.r'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'Makefile.s'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'Makefile.S'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'Makefile.mod'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.sh'.
+  Looking for a rule with intermediate file 'Makefile.sh'.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem 'Makefile.sh'.
+   Trying implicit prerequisite 'Makefile.sh,v'.
+   Trying pattern rule with stem 'Makefile.sh'.
+   Trying implicit prerequisite 'RCS/Makefile.sh,v'.
+   Trying pattern rule with stem 'Makefile.sh'.
+   Trying implicit prerequisite 'RCS/Makefile.sh'.
+   Trying pattern rule with stem 'Makefile.sh'.
+   Trying implicit prerequisite 's.Makefile.sh'.
+   Trying pattern rule with stem 'Makefile.sh'.
+   Trying implicit prerequisite 'SCCS/s.Makefile.sh'.
+  No implicit rule found for 'Makefile'.
+  Finished prerequisites of target file 'Makefile'.
+ No need to remake target 'Makefile'.
+Updating goal targets....
+Considering target file 'all'.
+ File 'all' does not exist.
+ Finished prerequisites of target file 'all'.
+Must remake target 'all'.
+make -C /lib/modules/5.3.0-51-generic/build M=/home/builder/projects/sber/hook_module modules
+Putting child 0x55e2dd626670 (all) PID 21707 on the chain.
+Live child 0x55e2dd626670 (all) PID 21707 
+GNU Make 4.1
+Built for x86_64-pc-linux-gnu
+Copyright (C) 1988-2014 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Reading makefiles...
+Reading makefile 'Makefile'...
+Reading makefile 'scripts/Kbuild.include' (search path) (no ~ expansion)...
+Reading makefile 'scripts/subarch.include' (search path) (no ~ expansion)...
+make[1]: Entering directory '/usr/src/linux-headers-5.3.0-51-generic'
+Reading makefile 'include/config/auto.conf' (search path) (no ~ expansion)...
+Reading makefile 'arch/x86/Makefile' (search path) (no ~ expansion)...
+Reading makefile 'scripts/Makefile.kcov' (search path) (no ~ expansion)...
+Reading makefile 'scripts/Makefile.gcc-plugins' (search path) (no ~ expansion)...
+Reading makefile 'scripts/Makefile.kasan' (search path) (no ~ expansion)...
+Reading makefile 'scripts/Makefile.extrawarn' (search path) (no ~ expansion)...
+Reading makefile 'scripts/Makefile.ubsan' (search path) (no ~ expansion)...
+Updating makefiles....
+ Considering target file 'scripts/Makefile.ubsan'.
+  Looking for an implicit rule for 'scripts/Makefile.ubsan'.
+  No implicit rule found for 'scripts/Makefile.ubsan'.
+  Finished prerequisites of target file 'scripts/Makefile.ubsan'.
+ No need to remake target 'scripts/Makefile.ubsan'.
+ Considering target file 'scripts/Makefile.extrawarn'.
+  Looking for an implicit rule for 'scripts/Makefile.extrawarn'.
+  No implicit rule found for 'scripts/Makefile.extrawarn'.
+  Finished prerequisites of target file 'scripts/Makefile.extrawarn'.
+ No need to remake target 'scripts/Makefile.extrawarn'.
+ Considering target file 'scripts/Makefile.kasan'.
+  Looking for an implicit rule for 'scripts/Makefile.kasan'.
+  No implicit rule found for 'scripts/Makefile.kasan'.
+  Finished prerequisites of target file 'scripts/Makefile.kasan'.
+ No need to remake target 'scripts/Makefile.kasan'.
+ Considering target file 'scripts/Makefile.gcc-plugins'.
+  Looking for an implicit rule for 'scripts/Makefile.gcc-plugins'.
+  No implicit rule found for 'scripts/Makefile.gcc-plugins'.
+  Finished prerequisites of target file 'scripts/Makefile.gcc-plugins'.
+ No need to remake target 'scripts/Makefile.gcc-plugins'.
+ Considering target file 'scripts/Makefile.kcov'.
+  Looking for an implicit rule for 'scripts/Makefile.kcov'.
+  No implicit rule found for 'scripts/Makefile.kcov'.
+  Finished prerequisites of target file 'scripts/Makefile.kcov'.
+ No need to remake target 'scripts/Makefile.kcov'.
+ Considering target file 'arch/x86/Makefile'.
+  Looking for an implicit rule for 'arch/x86/Makefile'.
+  No implicit rule found for 'arch/x86/Makefile'.
+  Finished prerequisites of target file 'arch/x86/Makefile'.
+ No need to remake target 'arch/x86/Makefile'.
+ Considering target file 'include/config/auto.conf'.
+  File 'include/config/auto.conf' does not exist.
+  Finished prerequisites of target file 'include/config/auto.conf'.
+ Must remake target 'include/config/auto.conf'.
+Putting child 0x55e500df78b0 (include/config/auto.conf) PID 22033 on the chain.
+Live child 0x55e500df78b0 (include/config/auto.conf) PID 22033 
+Reaping winning child 0x55e500df78b0 PID 22033 
+Removing child 0x55e500df78b0 PID 22033 from chain.
+ Successfully remade target file 'include/config/auto.conf'.
+ Considering target file 'scripts/subarch.include'.
+  Looking for an implicit rule for 'scripts/subarch.include'.
+  No implicit rule found for 'scripts/subarch.include'.
+  Finished prerequisites of target file 'scripts/subarch.include'.
+ No need to remake target 'scripts/subarch.include'.
+ Considering target file 'scripts/Kbuild.include'.
+  Looking for an implicit rule for 'scripts/Kbuild.include'.
+  No implicit rule found for 'scripts/Kbuild.include'.
+  Finished prerequisites of target file 'scripts/Kbuild.include'.
+ No need to remake target 'scripts/Kbuild.include'.
+ Considering target file 'Makefile'.
+  Looking for an implicit rule for 'Makefile'.
+  No implicit rule found for 'Makefile'.
+  Finished prerequisites of target file 'Makefile'.
+ No need to remake target 'Makefile'.
+Updating goal targets....
+Considering target file 'modules'.
+ File 'modules' does not exist.
+  Considering target file '_module_/home/builder/projects/sber/hook_module'.
+   File '_module_/home/builder/projects/sber/hook_module' does not exist.
+    Considering target file 'prepare'.
+     File 'prepare' does not exist.
+     Finished prerequisites of target file 'prepare'.
+    Must remake target 'prepare'.
+    Successfully remade target file 'prepare'.
+    Considering target file 'Module.symvers'.
+     File 'Module.symvers' does not exist.
+     Finished prerequisites of target file 'Module.symvers'.
+    Must remake target 'Module.symvers'.
+Putting child 0x55e500cf30d0 (Module.symvers) PID 22040 on the chain.
+Live child 0x55e500cf30d0 (Module.symvers) PID 22040 
+Reaping winning child 0x55e500cf30d0 PID 22040 
+Removing child 0x55e500cf30d0 PID 22040 from chain.
+    Successfully remade target file 'Module.symvers'.
+   Considering target file 'prepare'.
+   File 'prepare' was considered already.
+   Considering target file 'Module.symvers'.
+   File 'Module.symvers' was considered already.
+   Finished prerequisites of target file '_module_/home/builder/projects/sber/hook_module'.
+  Must remake target '_module_/home/builder/projects/sber/hook_module'.
+Putting child 0x55e500cec3f0 (_module_/home/builder/projects/sber/hook_module) PID 22047 on the chain.
+Live child 0x55e500cec3f0 (_module_/home/builder/projects/sber/hook_module) PID 22047 
+GNU Make 4.1
+Built for x86_64-pc-linux-gnu
+Copyright (C) 1988-2014 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Reading makefiles...
+Reading makefile 'scripts/Makefile.build'...
+Reading makefile 'include/config/auto.conf' (search path) (don't care) (no ~ expansion)...
+Reading makefile 'scripts/Kbuild.include' (search path) (no ~ expansion)...
+Reading makefile '/home/builder/projects/sber/hook_module/Makefile' (search path) (no ~ expansion)...
+Reading makefile 'scripts/Makefile.lib' (search path) (no ~ expansion)...
+Updating makefiles....
+ Considering target file 'scripts/Makefile.lib'.
+  Looking for an implicit rule for 'scripts/Makefile.lib'.
+  No implicit rule found for 'scripts/Makefile.lib'.
+  Finished prerequisites of target file 'scripts/Makefile.lib'.
+ No need to remake target 'scripts/Makefile.lib'.
+ Considering target file '/home/builder/projects/sber/hook_module/Makefile'.
+  Looking for an implicit rule for '/home/builder/projects/sber/hook_module/Makefile'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite '/home/builder/projects/sber/hook_module/Makefile_shipped'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite '/home/builder/projects/sber/hook_module/Makefile_shipped'.
+  Looking for a rule with intermediate file '/home/builder/projects/sber/hook_module/Makefile_shipped'.
+   Avoiding implicit rule recursion.
+  No implicit rule found for '/home/builder/projects/sber/hook_module/Makefile'.
+  Finished prerequisites of target file '/home/builder/projects/sber/hook_module/Makefile'.
+ No need to remake target '/home/builder/projects/sber/hook_module/Makefile'.
+ Considering target file 'scripts/Kbuild.include'.
+  Looking for an implicit rule for 'scripts/Kbuild.include'.
+  No implicit rule found for 'scripts/Kbuild.include'.
+  Finished prerequisites of target file 'scripts/Kbuild.include'.
+ No need to remake target 'scripts/Kbuild.include'.
+ Considering target file 'include/config/auto.conf'.
+  Looking for an implicit rule for 'include/config/auto.conf'.
+  No implicit rule found for 'include/config/auto.conf'.
+  Finished prerequisites of target file 'include/config/auto.conf'.
+ No need to remake target 'include/config/auto.conf'.
+ Considering target file 'scripts/Makefile.build'.
+  Looking for an implicit rule for 'scripts/Makefile.build'.
+  No implicit rule found for 'scripts/Makefile.build'.
+  Finished prerequisites of target file 'scripts/Makefile.build'.
+ No need to remake target 'scripts/Makefile.build'.
+Updating goal targets....
+Considering target file '__build'.
+ File '__build' does not exist.
+  Looking for an implicit rule for '/home/builder/projects/sber/hook_module/hook_module.o'.
+  Trying pattern rule with stem 'hook_module'.
+  Trying implicit prerequisite '/home/builder/projects/sber/hook_module/hook_module.c'.
+  Trying rule prerequisite 'include/config/stack/validation.h'.
+  Trying rule prerequisite 'FORCE'.
+  Found an implicit rule for '/home/builder/projects/sber/hook_module/hook_module.o'.
+   Considering target file '/home/builder/projects/sber/hook_module/hook_module.c'.
+    Looking for an implicit rule for '/home/builder/projects/sber/hook_module/hook_module.c'.
+    Trying pattern rule with stem 'hook_module.c'.
+    Trying implicit prerequisite '/home/builder/projects/sber/hook_module/hook_module.c_shipped'.
+    Trying pattern rule with stem 'hook_module.c'.
+    Trying implicit prerequisite '/home/builder/projects/sber/hook_module/hook_module.c_shipped'.
+    Looking for a rule with intermediate file '/home/builder/projects/sber/hook_module/hook_module.c_shipped'.
+     Avoiding implicit rule recursion.
+    No implicit rule found for '/home/builder/projects/sber/hook_module/hook_module.c'.
+    Finished prerequisites of target file '/home/builder/projects/sber/hook_module/hook_module.c'.
+   No need to remake target '/home/builder/projects/sber/hook_module/hook_module.c'.
+   Considering target file 'include/config/stack/validation.h'.
+    Looking for an implicit rule for 'include/config/stack/validation.h'.
+    No implicit rule found for 'include/config/stack/validation.h'.
+    Finished prerequisites of target file 'include/config/stack/validation.h'.
+   No need to remake target 'include/config/stack/validation.h'.
+   Considering target file 'FORCE'.
+    File 'FORCE' does not exist.
+    Finished prerequisites of target file 'FORCE'.
+   Must remake target 'FORCE'.
+   Successfully remade target file 'FORCE'.
+  Looking for an implicit rule for '/home/builder/projects/sber/hook_module/hook_module.mod'.
+  Trying pattern rule with stem 'hook_module'.
+  Trying implicit prerequisite '/home/builder/projects/sber/hook_module/hook_module.o'.
+  Trying rule prerequisite 'FORCE'.
+  Found an implicit rule for '/home/builder/projects/sber/hook_module/hook_module.mod'.
+    Pruning file '/home/builder/projects/sber/hook_module/hook_module.c'.
+    Pruning file 'include/config/stack/validation.h'.
+    Pruning file 'FORCE'.
+   Pruning file 'FORCE'.
+   Pruning file 'FORCE'.
+ Considering target file '/home/builder/projects/sber/hook_module/hook_module.o'.
+  File '/home/builder/projects/sber/hook_module/hook_module.o' does not exist.
+   Pruning file '/home/builder/projects/sber/hook_module/hook_module.c'.
+   Pruning file 'include/config/stack/validation.h'.
+   Pruning file 'FORCE'.
+  Considering target file 'FORCE'.
+  File 'FORCE' was considered already.
+  Finished prerequisites of target file '/home/builder/projects/sber/hook_module/hook_module.o'.
+ Must remake target '/home/builder/projects/sber/hook_module/hook_module.o'.
+Putting child 0x562800674020 (/home/builder/projects/sber/hook_module/hook_module.o) PID 22048 on the chain.
+Live child 0x562800674020 (/home/builder/projects/sber/hook_module/hook_module.o) PID 22048 
+Reaping winning child 0x562800674020 PID 22048 
+Live child 0x562800674020 (/home/builder/projects/sber/hook_module/hook_module.o) PID 22049 
+Reaping winning child 0x562800674020 PID 22049 
+Live child 0x562800674020 (/home/builder/projects/sber/hook_module/hook_module.o) PID 22050 
+Reaping winning child 0x562800674020 PID 22050 
+Live child 0x562800674020 (/home/builder/projects/sber/hook_module/hook_module.o) PID 22051 
+  CC [M]  /home/builder/projects/sber/hook_module/hook_module.o
+Reaping winning child 0x562800674020 PID 22051 
+Live child 0x562800674020 (/home/builder/projects/sber/hook_module/hook_module.o) PID 22057 
+Reaping winning child 0x562800674020 PID 22057 
+Live child 0x562800674020 (/home/builder/projects/sber/hook_module/hook_module.o) PID 22058 
+Reaping winning child 0x562800674020 PID 22058 
+Live child 0x562800674020 (/home/builder/projects/sber/hook_module/hook_module.o) PID 22059 
+Reaping winning child 0x562800674020 PID 22059 
+Live child 0x562800674020 (/home/builder/projects/sber/hook_module/hook_module.o) PID 22060 
+Reaping winning child 0x562800674020 PID 22060 
+Live child 0x562800674020 (/home/builder/projects/sber/hook_module/hook_module.o) PID 22061 
+Reaping winning child 0x562800674020 PID 22061 
+Live child 0x562800674020 (/home/builder/projects/sber/hook_module/hook_module.o) PID 22062 
+Reaping winning child 0x562800674020 PID 22062 
+Removing child 0x562800674020 PID 22062 from chain.
+ Successfully remade target file '/home/builder/projects/sber/hook_module/hook_module.o'.
+ Considering target file '/home/builder/projects/sber/hook_module/hook_module.mod'.
+  File '/home/builder/projects/sber/hook_module/hook_module.mod' does not exist.
+   Pruning file 'FORCE'.
+  Considering target file '/home/builder/projects/sber/hook_module/hook_module.o'.
+  File '/home/builder/projects/sber/hook_module/hook_module.o' was considered already.
+  Considering target file 'FORCE'.
+  File 'FORCE' was considered already.
+  Finished prerequisites of target file '/home/builder/projects/sber/hook_module/hook_module.mod'.
+ Must remake target '/home/builder/projects/sber/hook_module/hook_module.mod'.
+Putting child 0x562800774780 (/home/builder/projects/sber/hook_module/hook_module.mod) PID 22063 on the chain.
+Live child 0x562800774780 (/home/builder/projects/sber/hook_module/hook_module.mod) PID 22063 
+Reaping winning child 0x562800774780 PID 22063 
+Removing child 0x562800774780 PID 22063 from chain.
+ Successfully remade target file '/home/builder/projects/sber/hook_module/hook_module.mod'.
+ Considering target file '/home/builder/projects/sber/hook_module/modules.order'.
+  File '/home/builder/projects/sber/hook_module/modules.order' does not exist.
+   Pruning file 'FORCE'.
+  Considering target file 'FORCE'.
+  File 'FORCE' was considered already.
+  Finished prerequisites of target file '/home/builder/projects/sber/hook_module/modules.order'.
+ Must remake target '/home/builder/projects/sber/hook_module/modules.order'.
+Putting child 0x562800674550 (/home/builder/projects/sber/hook_module/modules.order) PID 22064 on the chain.
+Live child 0x562800674550 (/home/builder/projects/sber/hook_module/modules.order) PID 22064 
+Reaping winning child 0x562800674550 PID 22064 
+Removing child 0x562800674550 PID 22064 from chain.
+ Successfully remade target file '/home/builder/projects/sber/hook_module/modules.order'.
+ Finished prerequisites of target file '__build'.
+Must remake target '__build'.
+Successfully remade target file '__build'.
+Reaping winning child 0x55e500cec3f0 PID 22047 
+Removing child 0x55e500cec3f0 PID 22047 from chain.
+  Successfully remade target file '_module_/home/builder/projects/sber/hook_module'.
+ Considering target file '_module_/home/builder/projects/sber/hook_module'.
+ File '_module_/home/builder/projects/sber/hook_module' was considered already.
+ Finished prerequisites of target file 'modules'.
+Must remake target 'modules'.
+Putting child 0x55e500cf2fb0 (modules) PID 22073 on the chain.
+Live child 0x55e500cf2fb0 (modules) PID 22073 
+  Building modules, stage 2.
+Reaping winning child 0x55e500cf2fb0 PID 22073 
+Live child 0x55e500cf2fb0 (modules) PID 22074 
+GNU Make 4.1
+Built for x86_64-pc-linux-gnu
+Copyright (C) 1988-2014 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Reading makefiles...
+Reading makefile 'scripts/Makefile.modpost'...
+Reading makefile 'include/config/auto.conf' (search path) (no ~ expansion)...
+Reading makefile 'scripts/Kbuild.include' (search path) (no ~ expansion)...
+Reading makefile '/home/builder/projects/sber/hook_module/Makefile' (search path) (no ~ expansion)...
+Reading makefile 'scripts/Makefile.lib' (search path) (no ~ expansion)...
+Updating makefiles....
+ Considering target file 'scripts/Makefile.lib'.
+  Looking for an implicit rule for 'scripts/Makefile.lib'.
+  No implicit rule found for 'scripts/Makefile.lib'.
+  Finished prerequisites of target file 'scripts/Makefile.lib'.
+ No need to remake target 'scripts/Makefile.lib'.
+ Considering target file '/home/builder/projects/sber/hook_module/Makefile'.
+  Looking for an implicit rule for '/home/builder/projects/sber/hook_module/Makefile'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite '/home/builder/projects/sber/hook_module/Makefile_shipped'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite '/home/builder/projects/sber/hook_module/Makefile_shipped'.
+  Looking for a rule with intermediate file '/home/builder/projects/sber/hook_module/Makefile_shipped'.
+   Avoiding implicit rule recursion.
+  No implicit rule found for '/home/builder/projects/sber/hook_module/Makefile'.
+  Finished prerequisites of target file '/home/builder/projects/sber/hook_module/Makefile'.
+ No need to remake target '/home/builder/projects/sber/hook_module/Makefile'.
+ Considering target file 'scripts/Kbuild.include'.
+  Looking for an implicit rule for 'scripts/Kbuild.include'.
+  No implicit rule found for 'scripts/Kbuild.include'.
+  Finished prerequisites of target file 'scripts/Kbuild.include'.
+ No need to remake target 'scripts/Kbuild.include'.
+ Considering target file 'include/config/auto.conf'.
+  Looking for an implicit rule for 'include/config/auto.conf'.
+  No implicit rule found for 'include/config/auto.conf'.
+  Finished prerequisites of target file 'include/config/auto.conf'.
+ No need to remake target 'include/config/auto.conf'.
+ Considering target file 'scripts/Makefile.modpost'.
+  Looking for an implicit rule for 'scripts/Makefile.modpost'.
+  No implicit rule found for 'scripts/Makefile.modpost'.
+  Finished prerequisites of target file 'scripts/Makefile.modpost'.
+ No need to remake target 'scripts/Makefile.modpost'.
+Updating goal targets....
+Considering target file '_modpost'.
+ File '_modpost' does not exist.
+  Considering target file '__modpost'.
+   File '__modpost' does not exist.
+   Finished prerequisites of target file '__modpost'.
+  Must remake target '__modpost'.
+Putting child 0x564e05544e50 (__modpost) PID 22076 on the chain.
+Live child 0x564e05544e50 (__modpost) PID 22076 
+  MODPOST 1 modules
+Reaping winning child 0x564e05544e50 PID 22076 
+Removing child 0x564e05544e50 PID 22076 from chain.
+  Successfully remade target file '__modpost'.
+   Looking for an implicit rule for '/home/builder/projects/sber/hook_module/hook_module.o'.
+   Trying pattern rule with stem 'hook_module.o'.
+   Trying implicit prerequisite '/home/builder/projects/sber/hook_module/hook_module.o_shipped'.
+   Trying pattern rule with stem 'hook_module.o'.
+   Trying implicit prerequisite '/home/builder/projects/sber/hook_module/hook_module.o_shipped'.
+   Looking for a rule with intermediate file '/home/builder/projects/sber/hook_module/hook_module.o_shipped'.
+    Avoiding implicit rule recursion.
+   No implicit rule found for '/home/builder/projects/sber/hook_module/hook_module.o'.
+    Considering target file 'FORCE'.
+     File 'FORCE' does not exist.
+     Finished prerequisites of target file 'FORCE'.
+    Must remake target 'FORCE'.
+    Successfully remade target file 'FORCE'.
+   Pruning file 'FORCE'.
+ Considering target file '__modpost'.
+ File '__modpost' was considered already.
+ Considering target file '/home/builder/projects/sber/hook_module/hook_module.ko'.
+  File '/home/builder/projects/sber/hook_module/hook_module.ko' does not exist.
+    Considering target file '/home/builder/projects/sber/hook_module/hook_module.mod.c'.
+      Pruning file '__modpost'.
+     Considering target file '__modpost'.
+     File '__modpost' was considered already.
+     Finished prerequisites of target file '/home/builder/projects/sber/hook_module/hook_module.mod.c'.
+     Prerequisite '__modpost' of target '/home/builder/projects/sber/hook_module/hook_module.mod.c' does not exist.
+    Must remake target '/home/builder/projects/sber/hook_module/hook_module.mod.c'.
+    Successfully remade target file '/home/builder/projects/sber/hook_module/hook_module.mod.c'.
+    Pruning file 'FORCE'.
+   Pruning file 'FORCE'.
+  Considering target file '/home/builder/projects/sber/hook_module/hook_module.o'.
+   Finished prerequisites of target file '/home/builder/projects/sber/hook_module/hook_module.o'.
+  No need to remake target '/home/builder/projects/sber/hook_module/hook_module.o'.
+  Considering target file '/home/builder/projects/sber/hook_module/hook_module.mod.o'.
+   File '/home/builder/projects/sber/hook_module/hook_module.mod.o' does not exist.
+    Pruning file '/home/builder/projects/sber/hook_module/hook_module.mod.c'.
+    Pruning file 'FORCE'.
+   Considering target file 'FORCE'.
+   File 'FORCE' was considered already.
+   Finished prerequisites of target file '/home/builder/projects/sber/hook_module/hook_module.mod.o'.
+  Must remake target '/home/builder/projects/sber/hook_module/hook_module.mod.o'.
+Putting child 0x564e055c24c0 (/home/builder/projects/sber/hook_module/hook_module.mod.o) PID 22079 on the chain.
+Live child 0x564e055c24c0 (/home/builder/projects/sber/hook_module/hook_module.mod.o) PID 22079 
+  CC      /home/builder/projects/sber/hook_module/hook_module.mod.o
+Reaping winning child 0x564e055c24c0 PID 22079 
+Removing child 0x564e055c24c0 PID 22079 from chain.
+  Successfully remade target file '/home/builder/projects/sber/hook_module/hook_module.mod.o'.
+  Considering target file 'FORCE'.
+  File 'FORCE' was considered already.
+  Finished prerequisites of target file '/home/builder/projects/sber/hook_module/hook_module.ko'.
+ Must remake target '/home/builder/projects/sber/hook_module/hook_module.ko'.
+Putting child 0x564e05630190 (/home/builder/projects/sber/hook_module/hook_module.ko) PID 22085 on the chain.
+Live child 0x564e05630190 (/home/builder/projects/sber/hook_module/hook_module.ko) PID 22085 
+  LD [M]  /home/builder/projects/sber/hook_module/hook_module.ko
+Reaping winning child 0x564e05630190 PID 22085 
+Removing child 0x564e05630190 PID 22085 from chain.
+ Successfully remade target file '/home/builder/projects/sber/hook_module/hook_module.ko'.
+ Finished prerequisites of target file '_modpost'.
+Must remake target '_modpost'.
+Successfully remade target file '_modpost'.
+Reaping winning child 0x55e500cf2fb0 PID 22074 
+Removing child 0x55e500cf2fb0 PID 22074 from chain.
+Successfully remade target file 'modules'.
+make[1]: Leaving directory '/usr/src/linux-headers-5.3.0-51-generic'
+Reaping winning child 0x55e2dd626670 PID 21707 
+Removing child 0x55e2dd626670 PID 21707 from chain.
+Successfully remade target file 'all'.
