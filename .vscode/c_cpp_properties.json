@@ -4,7 +4,8 @@
             "name": "Win32",
             "includePath": [
                 "${default}",
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "/usr/src/linux-headers-5.13.0-20/include/**"
             ],
             "defines": [
                 "_DEBUG",
