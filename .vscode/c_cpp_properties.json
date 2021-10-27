@@ -1,11 +1,17 @@
 {
     "configurations": [
         {
-            "name": "Win32",
+            "name": "Linux",
             "includePath": [
                 "${default}",
+                "/home/user/Desktop/Udemy/**",
                 "${workspaceFolder}/**",
-                "/usr/src/linux-headers-5.13.0-20/include/**"
+                "/usr/src/linux-headers-5.13.0-19/**",
+                "/home/user/Desktop/Udemy/Udemy/linux-headers/**",
+                "/lib/modules/5.13.0-19-generic/build/include/**",
+                "/usr/src/linux-headers-5.13.0-19-generic/**",
+                "/usr/src/linux-headers-5.13.0-19/include/linux/**",
+                "/usr/include/x86_64-linux-gnu/**"
             ],
             "defines": [
                 "_DEBUG",
@@ -13,10 +19,10 @@
                 "_UNICODE"
             ],
             "windowsSdkVersion": "10.0.19041.0",
-            //"compilerPath": "D:\\Programms\\Visual Studio IDE\\VC\\Tools\\MSVC\\14.28.29910\\bin\\Hostx64\\x64\\cl.exe",
             "cStandard": "c17",
             "cppStandard": "c++17",
-            "intelliSenseMode": "windows-msvc-x64"
+            "intelliSenseMode": "linux-gcc-x64",
+            "compilerPath": "/usr/bin/gcc"
         }
     ],
     "version": 4
