@@ -4,14 +4,14 @@
             "name": "Linux",
             "includePath": [
                 "${default}",
+                "/home/user/Desktop/Udemy/Udemy/hook_module/",
                 "/home/user/Desktop/Udemy/**",
                 "${workspaceFolder}/**",
-                "/usr/src/linux-headers-5.13.0-20/**",
-                "/home/user/Desktop/Udemy/Udemy/linux-headers/**",
                 "/lib/modules/5.13.0-20-generic/build/include/**",
                 "/usr/src/linux-headers-5.13.0-20-generic/**",
                 "/usr/src/linux-headers-5.13.0-20/include/linux/**",
-                "/usr/include/x86_64-linux-gnu/**"
+                "/usr/include/x86_64-linux-gnu/**",
+                "/usr/include/newlib"
             ],
             "defines": [
                 "_DEBUG",
