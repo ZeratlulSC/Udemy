@@ -6,5 +6,4 @@ hook_module(Bulat's_example)/*
 *.json
 a.out
 *
-!*/
 !*.*
