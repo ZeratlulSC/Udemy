@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "kernel.h": "c",
+        "module.h": "c",
+        "logger.h": "c",
+        "uaccess.h": "c",
+        "compiler.h": "c",
+        "ioctl.h": "c",
+        "filter.h": "c"
+    }
+    //"terminal.integrated.shell.Linux": "/bin/bash"
+}
