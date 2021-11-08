@@ -11,6 +11,10 @@
         "*.tcc": "cpp",
         "memory": "cpp",
         "stdlib.h": "c"
-    }
+    },
     //"terminal.integrated.shell.Linux": "/bin/bash"
+    "editor.quickSuggestions":{
+        "other" : true,
+        "comments": false
+    }
 }
