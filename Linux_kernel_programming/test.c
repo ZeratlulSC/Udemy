@@ -9,7 +9,6 @@ struct employee
     char name[40];
 };
 
-
 int main (int argc, char **argv){
     struct employee emp1;
     emp1.hireDate = 8112021;
