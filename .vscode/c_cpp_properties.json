@@ -4,14 +4,7 @@
             "name": "Linux",
             "includePath": [
                 "${default}",
-                "/home/user/Desktop/Udemy/Udemy/hook_module/",
-                "/home/user/Desktop/Udemy/**",
-                "${workspaceFolder}/**",
-                "/lib/modules/5.13.0-20-generic/build/include/**",
-                "/usr/src/linux-headers-5.13.0-20-generic/**",
-                "/usr/src/linux-headers-5.13.0-20/include/linux/**",
-                "/usr/include/x86_64-linux-gnu/**",
-                "/usr/include/newlib"
+                "${workspaceFolder}/**"
             ],
             "defines": [
                 "_DEBUG",
