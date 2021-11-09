@@ -10,7 +10,8 @@
         "cstdlib": "cpp",
         "*.tcc": "cpp",
         "memory": "cpp",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "signal.h": "c"
     },
     //"terminal.integrated.shell.Linux": "/bin/bash"
     "editor.quickSuggestions":{

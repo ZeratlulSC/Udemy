@@ -1,27 +1,22 @@
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
-
+#include <stdlib.h>
+#include <signal.h>
 
 int main (int argc, char **argv){
-    FILE *pfile = NULL;
-    FILE *newfile = NULL;
-    char *filename = "readme";
-    char *filename1 = "new_file.txt";
-    pfile = fopen(filename, "r");
-    newfile = fopen(filename1, "w");
-    if (pfile == NULL || newfile == NULL) return -1;
-    char ch = fgetc(pfile);
-    while (ch != EOF)
-    {
-        fputc(tolower(ch), newfile);
-        ch = fgetc(pfile);
+    FILE *file = NULL;
+    file = fopen("readme", "r");
+    fseek(file, 0, SEEK_END);
+    int filesize = ftell(file);
+    printf("%d\n", filesize);
+    for (int i = 1; i <= filesize; i++){
+        fseek(file, -i, SEEK_END);
+        printf("%c", fgetc(file));
     }
-    rename(filename1, filename);
-    fclose(pfile);
-    fclose(newfile);
-    remove(filename1);
-    pfile = NULL;
-    newfile = NULL;
+    printf("\n");
+    fclose(file);
+    file = NULL;
+    raise(SIGCHLD);
     return 0;
 }
