@@ -7,3 +7,5 @@ hook_module(Bulat's_example)/*
 a.out
 *
 !*.*
+.vscode/*
+.vscode/c_cpp_properties.json
