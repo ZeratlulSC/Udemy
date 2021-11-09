@@ -18,7 +18,7 @@ void readItem (struct employee *emp){
 }
 
 void printItem (struct employee *emp){
-    printf("%s %d %f %f", emp->itemName, (emp->quantity), emp->price, emp->amount);
+    printf("%s %d %f %f", emp->itemName, emp->quantity, emp->price, emp->amount);
 }
 
 int main (int argc, char **argv){
