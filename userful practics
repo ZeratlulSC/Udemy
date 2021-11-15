@@ -1,0 +1,10 @@
+полезные практики с
+1) не использовать typedef с простой структурой
+2) использовать typedef с коминацией массивов, структур, указателей, функций
+3) typedef используется при >20 bit, дифф платформы
+4)	typedef int (*ptr_to_int_fun)(void);
+	char * p;
+	... = (prt_to_int_fun) p;
+5) VLA - check __STDC_NO_VLA__
+6) alloc mem in flex (no size) arr: pointer = malloc(sizeof(struct s) + size * sizeof(elem)) last member!!
+struct with flex arr member cant be part of another struct
